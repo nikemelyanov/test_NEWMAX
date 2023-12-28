@@ -1,8 +1,15 @@
-const axios = require('axios');
-const {launch} = require("puppeteer");
+import axios from 'axios';
+import { launch } from "puppeteer";
 
-/* Референс кода взял у -> */
-/* https://github.com/AstreyaJulia/newmax-test */
+/* Референс кода взял у -> 
+Не сталкивался с парсингом ранее, пока копал информацию нашел реализацию от Юли.
+Прочитал и протестировал в postman
+Добавил правку для запуска, class slider изменился
+И убрал бесячий браузер)))
+
+https://github.com/AstreyaJulia/newmax-test  - спасибо
+*/
+
 
 /* Настройки */ 
 let article = 146972802;
